@@ -70,7 +70,7 @@ response = requests.get(
     params={
         "query": "celine-supple-shiny-lambskin-little-new-luggage-black-1978804",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -218,7 +218,7 @@ response = requests.get(
     params={
         "query": "celine",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
